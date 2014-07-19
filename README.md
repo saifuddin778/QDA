@@ -10,4 +10,4 @@ Iplementation of Quadratic Discriminant Analysis (QDA) method for binary and mul
 >>> t.predict([2.3, 3.2, 2.4])
 >>> {'A': 2.1366024891345905, 'B': 3.2231442139356759}
 ```
-Each of the binary classes above ('A' and 'B') are predicted based on the standard discriminant function i.e. ![alt text](https://github.com/saifuddin778/QDA/raw/master/images/qda.png ""), and one with maximum output is the predicted class for the given input.
+Each of the binary classes above ('A' and 'B') are predicted based on the standard discriminant function i.e. ![alt text](https://github.com/saifuddin778/QDA/raw/master/images/QDA.png ""), and one with maximum output is the predicted class for the given input.
