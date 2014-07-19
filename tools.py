@@ -207,7 +207,7 @@ def fmin(F,xStart,side=0.1,tol=0.000006):
         # Compute the move vector d
         d = (-(n+1)*x[iHi] + numpy.sum(x,axis=0))/n
         # Check for convergence
-        if math.sqrt(dot(d,d)/n) < tol: return x[iLo]
+        if math.sqrt(numpy.dot(d,d)/n) < tol: return x[iLo]
         # Try reflection
         xNew = x[iHi] + 2.0*d              
         fNew = F(xNew)        
